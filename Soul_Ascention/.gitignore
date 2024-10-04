@@ -1,0 +1,12 @@
+Library/
+PackageCache/
+
+Temp/
+Obj/
+Logs/
+MemoryCaptures/
+Build/
+Builds/
+Packages/
+ProjectSettings/
+UserSettings/
