@@ -7,7 +7,7 @@ Para el siguiente nivel tendrá que escapar del cementerio buscando su tumba y o
 Al escapara caminara hacia su libertad y de regreso a la vida..
 
 
-##Menú principal
+## Menú principal
 <p align="center">
   <img src="MenuPrincipal.png" alt="MenuPrincipal" />
 </p>
