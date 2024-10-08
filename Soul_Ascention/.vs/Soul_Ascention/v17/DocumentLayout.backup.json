@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|c:\\users\\carla\\onedrive\\documentos\\cuatri 10\\creaci\u00F3n de videojuegos ing\\soulascention\\soul_ascention\\assets\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|solutionrelative:assets\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuInicial.cs",
+              "DocumentMoniker": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\MenuInicial.cs",
+              "RelativeDocumentMoniker": "Assets\\MenuInicial.cs",
+              "ToolTip": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\MenuInicial.cs",
+              "RelativeToolTip": "Assets\\MenuInicial.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T20:19:06.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
