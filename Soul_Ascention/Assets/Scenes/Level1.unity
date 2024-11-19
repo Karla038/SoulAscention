@@ -3509,12 +3509,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7701880938518367838, guid: 35978845cb9296c4a9260578869c4547, type: 3}
       propertyPath: speed
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7701880938518367838, guid: 35978845cb9296c4a9260578869c4547, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 2064461521}
+    - target: {fileID: 7701880938518367838, guid: 35978845cb9296c4a9260578869c4547, type: 3}
+      propertyPath: wallLayer.m_Bits
+      value: 4096
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766553031279501277, guid: 35978845cb9296c4a9260578869c4547, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3600,7 +3608,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.23773581, g: 0.23100744, b: 0.23100744, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3707,6 +3715,10 @@ PrefabInstance:
     - target: {fileID: 5208366985688905215, guid: ee0178364305571478d3b57c7083512b, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477420794564629585, guid: ee0178364305571478d3b57c7083512b, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8765878492159121808, guid: ee0178364305571478d3b57c7083512b, type: 3}
       propertyPath: m_Name
