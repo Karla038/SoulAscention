@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|c:\\users\\carla\\onedrive\\documentos\\cuatri 10\\creaci\u00F3n de videojuegos ing\\soulascention\\soul_ascention\\assets\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|solutionrelative:assets\\menuinicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|c:\\users\\carla\\onedrive\\documentos\\cuatri 10\\creaci\u00F3n de videojuegos ing\\soulascention\\soul_ascention\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|c:\\users\\carla\\onedrive\\documentos\\cuatri 10\\creaci\u00F3n de videojuegos ing\\soulascention\\soul_ascention\\assets\\scripts\\collectiblegems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectiblegems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|c:\\users\\carla\\onedrive\\documentos\\cuatri 10\\creaci\u00F3n de videojuegos ing\\soulascention\\soul_ascention\\assets\\scripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\assets\\scripts\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E8E8299-7CCD-32B6-2BD7-8316CBC1C1C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +35,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MenuInicial.cs",
-              "DocumentMoniker": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\MenuInicial.cs",
-              "RelativeDocumentMoniker": "Assets\\MenuInicial.cs",
-              "ToolTip": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\MenuInicial.cs",
-              "RelativeToolTip": "Assets\\MenuInicial.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBAAAAAbAAAAAAAAAA==",
+              "Title": "EnemyMovement.cs",
+              "DocumentMoniker": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\Scripts\\EnemyMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMovement.cs",
+              "ToolTip": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\Scripts\\EnemyMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyMovement.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAgwLcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T20:19:06.788Z",
+              "WhenOpened": "2024-11-13T22:55:19.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CollectibleGems.cs",
+              "DocumentMoniker": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\Scripts\\CollectibleGems.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CollectibleGems.cs",
+              "ToolTip": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\Scripts\\CollectibleGems.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CollectibleGems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:18:21.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:02:06.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Collectible.cs",
+              "DocumentMoniker": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\Scripts\\Collectible.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Collectible.cs",
+              "ToolTip": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\Scripts\\Collectible.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Collectible.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:41:45.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exit.cs",
+              "DocumentMoniker": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\Scripts\\Exit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Exit.cs",
+              "ToolTip": "C:\\Users\\carla\\OneDrive\\Documentos\\Cuatri 10\\Creaci\u00F3n de Videojuegos ING\\SoulAscention\\Soul_Ascention\\Assets\\Scripts\\Exit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Exit.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:42:49.983Z",
               "EditorCaption": ""
             }
           ]
