@@ -8,7 +8,7 @@ public class Collectible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            GameManager.instance.CollectKey(); // Actualizar estado en GameManager
+            GameManager.Instance.SetHasKey(true); // Actualizar estado en GameManager
             Debug.Log("Llave recogida!");
             Destroy(gameObject); // Destruir la llave
         }

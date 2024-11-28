@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement; // Para cargar o reiniciar escenas
 
 public class EnemyController : MonoBehaviour
 {
+    //public static GameManager instance;
     public float speed = 2f; // Velocidad de movimiento
     public Transform player; // Referencia al jugador
     public LayerMask wallLayer; // Capa de las paredes del laberinto
@@ -17,13 +18,13 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        SetRandomDirection(); // Establecer una dirección inicial aleatoria
+        //SetRandomDirection(); // Establecer una dirección inicial aleatoria
     }
 
     // Update is called once per frame
     void Update()
     {
-        Move(); // Mover al enemigo en la dirección actual
+        //Move(); // Mover al enemigo en la dirección actual
         DetectPlayer(); // Verificar si el jugador está dentro del rango
     }
 
@@ -67,22 +68,30 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        if(other.gameObject.CompareTag("Player"))
+        {
+            GameManager.Instance.PerderVida();
+        }
+        /*if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
         {
             SetRandomDirection();
         }
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("El enemigo te atrapó. Fin del juego.");
-            EndGame();
-        }
+            
+            if (GameManager.instance.vidas < 0)
+            {
+                Debug.Log("Fin del juego.");
+                EndGame();
+            }else {
+                GameManager.instance.PerderVida();
+                Debug.Log("El enemigo te atrapó.");
+            }
+        }*/
+
     }
 
-    void EndGame()
-    {
-        // Reiniciar la escena actual
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    
 }

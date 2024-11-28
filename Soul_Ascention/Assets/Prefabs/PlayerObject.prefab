@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 2077236578428718530}
   - component: {fileID: 7626705448257372427}
   - component: {fileID: 5208366985688905215}
-  m_Layer: 6
+  - component: {fileID: 7194772134447341710}
+  m_Layer: 3
   m_Name: PlayerObject
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -62,7 +63,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1187497466496231505
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -101,8 +102,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 842231415
-  m_SortingLayer: 1
+  m_SortingLayerID: 1208448769
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300528, guid: e18a8167eafb43d4ab526a81ba909be1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -194,3 +195,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0062894, y: 1.0062894}
   m_EdgeRadius: 0
+--- !u!114 &7194772134447341710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8765878492159121808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd379c4ac66a971449ccd7afdb250065, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntos: {fileID: 0}
+  gemas: 0
