@@ -1,74 +1,56 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager Instance {get; private set;}
 
-    private int score = 0; // Puntuación inicial
-    public Text scoreText;
-    public int currentLevel = 1; // Nivel actual
-    private Dictionary<int, int> keysRequiredPerLevel = new Dictionary<int, int>
-    {
-        {1, 1}, // Nivel 1 requiere 1 llave
-        {2, 2}, // Nivel 2 requiere 2 llaves
-        {3, 3}  // Nivel 3 requiere 3 llaves
-    };
-    private int keysCollected = 0; // Contador de llaves recogidas en el nivel actual
+    public VidaJugador vidaJugador;
 
-    void Awake()
+    public int vidas = 3;
+
+    private bool hasKey = false; // Estado de la llave
+
+    private void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // Mantener este objeto entre escenas
         }
         else
         {
-            Destroy(gameObject);
+            Debug.Log("Mas de un gameMagnament en escena");
         }
     }
 
-    void Start()
+    // Función para actualizar el estado de la llave
+    public void SetHasKey(bool value)
     {
-        UpdateScoreText();
+        hasKey = value;
     }
 
-    // Método para añadir puntuación
-    public void AddScore(int amount)
+    // Función para verificar si el jugador tiene la llave
+    public bool HasKey()
     {
-        score += amount;
-        UpdateScoreText();
+        return hasKey;
     }
 
-    // Método para actualizar el texto de puntuación en la UI
-    void UpdateScoreText()
-    {
-        if (scoreText != null)
-        {
-            scoreText.text = "Score: " + score;
+    public void PerderVida(){
+        vidas -=1;
+        if(vidas >= 0){
+            vidaJugador.DesactivarVida(vidas);
+        }else {
+            EndGame();
         }
+        
     }
 
-    // Método para recolectar una llave y actualizar el contador
-    public void CollectKey()
+    void EndGame()
     {
-        keysCollected++;
-        Debug.Log("Llaves recogidas en nivel " + currentLevel + ": " + keysCollected);
-    }
-
-    // Método para verificar si el jugador ha recogido todas las llaves necesarias
-    public bool HasCollectedAllKeys()
-    {
-        return keysCollected >= keysRequiredPerLevel[currentLevel];
-    }
-
-    // Método para pasar al siguiente nivel, reseteando el contador de llaves
-    public void AdvanceLevel()
-    {
-        keysCollected = 0;
-        currentLevel++;
+        // Reiniciar la escena actual
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
